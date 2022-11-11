@@ -1,0 +1,37 @@
+.wetherBg{
+    /* background-image: url('https://media.istockphoto.com/id/1061786490/photo/sky-in-the-pink-and-blue-colors-effect-of-light-pastel-colored-of-sunset-clouds-cloud-on-the.jpg?b=1&s=170667a&w=0&k=20&c=0AoS-SBEN6tc9MzdshdPz7P2-VKf2qxhK4JTHKPfjjM='); */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .heading{
+    color:rgb(53, 51, 51);
+    font-weight: 700;
+  }
+  .wetherResultBox{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+  }
+    
+    .weathorTemp{
+      font-size: 45px;
+    }
+    .weathorCity{
+      font-size: 35px;
+      font-weight: 700;
+    }
+    .humidity{
+      font-size: 40px;
+    }
+  
+  
+    .img{
+      width: 100px;
+      height: 100px;
+      margin-top: 2rem;
+    }
